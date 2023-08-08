@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: linen;
+}
+
+#content{
+    background-color: rgb(231, 226, 163);
+}
+#navigation{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex
+}
+
+#menu{
+    list-style-type:none ;
+}
+#navigation li a{
+    text-decoration: none;
+    color: red;
+    font-weight: 900;
+    padding: 20px;
+    display: block;
+}
+#drop{
+    position: relative;
+}
+#menu{
+    position: absolute;
+    padding: 0px;
+    display: none;
+}
+#drop:hover #menu1{
+    display: block;
+    background-color: black;
+}
+
+#navigation li a:hover{
+    background-color: rgb(13, 111, 197);
+}
+
+
+
